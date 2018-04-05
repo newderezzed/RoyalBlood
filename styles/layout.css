@@ -1,0 +1,236 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body {
+    color: #333;
+    font-family: soleil, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: center;
+    background-color: #FAFAFC;
+}
+
+header {
+    background: url(../img/banner-artwork-centered.jpg) no-repeat center bottom;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    margin-left: -255px;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    color: #fff;
+    font-family: Overpass, sans-serif;
+    font-weight: 700;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-right: 1px solid #615A5A;
+}
+
+nav a:hover {
+
+    color: #aaa;
+}
+
+nav a#no {
+    border-right: none;
+}
+
+header h1 {
+    width: 280px;
+    background: url(http://royalbloodband.com/assets/img/site/logo-line-black.svg) center center no-repeat;
+    background-size: 100%;
+    font-family: Overpass, sans-serif;
+    font-weight: 700;
+    color: #333;
+    font-size: 50px;
+    text-indent: -9999px;
+    position: absolute;
+    top: 280px;
+    left: 50%;
+    margin: -140px;
+}
+
+#section1 h2 {
+    font-family: Overpass, sans-serif;
+    font-weight: 700;
+    color: #333;
+    margin: 0 0 10px;
+    font-size: 37px;
+    margin-top: 100px;
+}
+
+.subheading {
+    font-size: 18px;
+    color: #333;
+}
+
+#section2 {
+    width: 630px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#section2:after {
+    content: '';
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+}
+
+#section2 li {
+    float: left;
+    margin-bottom: 20px;
+}
+
+#section2 li:nth-child(odd) {
+    margin-right: 25px;
+}
+
+#section2 img {
+    width: 300px;
+    height: 300px;
+}
+
+#section3 {
+    margin-top: 30px;
+    padding-bottom: 100px;
+}
+
+#section3 h3 {
+    background-color: #333;
+    padding: 10px 25px 12px;
+    color: #fff;
+    display: inline-block;
+    font-size: 21px;
+    margin-bottom: 20px;
+    position: relative;
+}
+#section3 h3:after{
+	content: '';
+    display: block;
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 8px 0 8px;
+    border-color: #333 transparent transparent transparent;
+    background: none;
+    margin: 0;
+}
+
+#section3 a {
+    display: inline-block;
+    background-color: transparent;
+    ;
+    border: 2px solid #333;
+    padding: 10px 35px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.75);
+}
+
+#section3 a:hover {
+    background-color: #ddd;
+}
+
+#section4 {
+    background-color: #EDEDED;
+    height: 95vh;
+    position: relative;
+}
+
+#section4 #header_text a {
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+#section4 h3 {
+    background-color: #333;
+    padding: 10px 25px 12px;
+    color: #fff;
+    display: inline-block;
+    font-size: 21px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    position: relative;
+}
+
+#section4 h3:after {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 8px 8px 0 8px;
+    border-color: #333 transparent transparent transparent;
+    background: none;
+    margin: 0;
+}
+
+#section4 iframe {
+    border: 2px solid #333;
+}
+#header_text span:before{
+	content: "^";
+}
+#enter_button {
+    display: inline-block;
+    background-color: transparent;
+    ;
+    border: 2px solid #333;
+    padding: 10px 35px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.75);
+}
+
+#enter_button:hover {
+    background-color: #ddd;
+}
+
+footer {
+    font-size: 0.75em;
+    letter-spacing: 0.25px;
+    line-height: 3.65;
+    height: 5vh;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+}

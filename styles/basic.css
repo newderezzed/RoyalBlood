@@ -1,0 +1,97 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 1em 10%;
+    color: #333;
+    background-color: #fff;
+}
+a{
+    color: brown;
+    text-decoration: none;
+}
+header {
+    position: relative;
+    height: 300px;
+    border: 0.1em solid #333;
+    border-bottom-width: 0;
+    background-color: #fff;
+    background: url(../afimgs/Official-2017-logo.jpg) no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+#about header{
+    background: url(../afimgs/1035x596-20140114-arcadefire-x1800-138972106711.jpg) no-repeat;
+    background-size: 250px 250px;
+    background-position: right 5px;
+}
+#photos header{
+    background: url(../afimgs/Arcade+Fire+vector+logo+bw.png) no-repeat;
+    background-size: contain;
+    background-position:right;
+}
+#live header{
+    background: url(../afimgs/flat,1000x1000,075,f.jpg) no-repeat;
+    background-size: 250px 250px;
+    background-position: right 10px;
+}
+#contact header{
+    background: url(../afimgs/master-header-logo.png) no-repeat;
+    background-size: 50%;
+    background-position: right;
+}
+header nav {
+    position: absolute;
+    border: 0.1em solid #333;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    background-color: #333;
+    width: 100%;
+    bottom: 0px;
+    box-sizing: border-box;
+}
+
+header nav ul {
+    width: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+header nav li {
+    display: inline;
+}
+
+header nav li a:first-child {
+    border-left: .1em solid;
+}
+
+header nav li a {
+    display: block;
+    float: left;
+    padding: .5em 2em;
+    border-right: .1em solid;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+}
+header nav a.here{
+
+    background-color: gray;
+}
+article {
+    border: 0.1em solid;
+    border-top-width: 0;
+    padding: 2em 10%;
+    line-height: 1.8em;
+}
+label{
+    display: block;
+}
+fieldset{
+    border: 0;
+}
